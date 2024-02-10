@@ -38,7 +38,7 @@ header{
 
 /* Intro Image */
 .intro_block{
-    height: 414px;
+    height: 600px;
     background-color: lightgray;
     position: relative;
 }
@@ -48,7 +48,7 @@ header{
     margin: 0;
     position: absolute;
     width: 100%;
-    height: 414px;
+    height: 600px;
 }
         /* small profile image over the background */
 .profile_image{
