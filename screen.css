@@ -1,1 +1,105 @@
 /* Add screen styles below */
+
+
+/* Getting rid of default margins */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header */
+header{
+    height: 90px;
+    padding: 10px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+    /* Main name text */
+.title_name{
+    margin: 0;
+}
+
+    /* Contact and Fun Stuff */
+.menu_elements{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    
+}
+/* Header */
+
+
+
+
+/* Intro Image */
+.intro_block{
+    height: 414px;
+    background-color: lightgray;
+    position: relative;
+}
+    /* Image on the background*/
+.background_image{
+    background-color: black;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 414px;
+}
+        /* small profile image over the background */
+.profile_image{
+    background-color: red;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-radius: 50%;
+    /* temp */
+    height: 90px;
+}
+        /* button that goes to resume */
+.resume{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+/* Intro Image */
+
+
+
+/* Prior Work Block */
+.prior_work_block{
+    background-color: gray;
+    height: 1280px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+    /* Title text */
+.prior_work_title{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+    /* Image blocks: design, software, datavis */
+.skill_block{
+    display: flex;
+}
+
+.skill_image{
+    width: 560px;
+    height: 280px;
+    background-color: white;
+}
+
+#software{
+    align-self: flex-end;
+}
+
+/* Prior Work Block */
