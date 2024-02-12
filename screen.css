@@ -1,13 +1,14 @@
-/* Add screen styles below */
-
-
 /* Getting rid of default margins */
 html, body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
-
-
+/* Images with this class will not resize */
+.no_resize{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* Header */
 header{
@@ -22,13 +23,16 @@ header{
     /* Main name text */
 .title_name{
     margin: 0;
+    font-size: 64px;
 }
+
 
     /* Contact and Fun Stuff */
 .menu_elements{
     display: flex;
     gap: 10px;
     list-style-type: none;
+    font-size: 40px;
     
 }
 /* Header */
@@ -44,7 +48,6 @@ header{
 }
     /* Image on the background*/
 .background_image{
-    background-color: black;
     margin: 0;
     position: absolute;
     width: 100%;
@@ -52,14 +55,10 @@ header{
 }
         /* small profile image over the background */
 .profile_image{
-    background-color: red;
     margin: 0;
     position: absolute;
     bottom: 0;
-    left: 50%;
-    border-radius: 50%;
-    /* temp */
-    height: 90px;
+    left: 45%;
 }
         /* button that goes to resume */
 .resume{
@@ -86,6 +85,7 @@ header{
     text-align: center;
     margin: 0;
     margin-bottom: 20px;
+    font-size: 64px;
 }
     /* Image blocks: design, software, datavis */
 .skill_block{
