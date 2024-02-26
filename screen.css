@@ -170,6 +170,12 @@ header{
     padding: 20px;
     padding-right: 100px;
     width: 80%;
+    transition: all 250ms;
+
+}
+
+.skill_block:hover {
+    transform: translateY(-5px);
 }
 
 .skill_image{
