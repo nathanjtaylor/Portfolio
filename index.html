@@ -9,14 +9,14 @@
   </head>
 
   <body>
-    <script src="index.js"></script>
     <!-- MENU BAR -->
     <header>
-      <h1 class="title_name"><strong>NATHAN TAYLOR</strong></h1>
+      <h1 class="title_name"><a id="title_name" href="index.html"><strong>NATHAN TAYLOR</strong></a></h1>
       <!-- MENU ELEMENTS -->
       <ul class="menu_elements">
         <li> <a href="#">Contact</a> </li>
-        <li> <a href="#">Fun Stuff</a> </li>
+        <li> | </li>
+        <li> <a href="fun.html">Fun Stuff</a> </li>
       </ul>
     </header>
 
@@ -24,13 +24,8 @@
     <main>
       <!-- INTRO BLOCK -->
       <div class="intro_block">
-        <figure class="background">
-          <figure class="profile_container">
-            <img class="profile_image" src="images/profile.png" alt="profile image">
-            <div class="profile_overlay"><h2>Hello!</h2></div>
-          </figure>
-          <button class="resume" role="button">Resume</button>
-        </figure>
+          <img class="profile_image" src="images/profile.png" alt="profile image">
+          <button class="resume" id="resume" role="button">Resume</button>
       </div>
 
       <!-- PRIOR WORK -->
@@ -38,9 +33,10 @@
         <h2 class="prior_work_title">Prior Work</h2>
         <!-- DESIGN -->
         <section class="skill_block" id="design">
-          <figure class="skill_image">
+          <figure class="skill_image" id="design_cover">
           </figure>
           <div class="skill_block_text">
+            <h2>Fantasy Football System</h2>
             I'm passionate about designing things, whether they're graphics, UI, or experiences. To me, design is more than just a beautification method—it's a powerful tool for enhancing the user experience and solving problems. Whenever possible, I prioritize consulting the end user to ensure that my designs meet their needs. However, when faced with limitations, I believe in stepping back and empathizing with the user to make a significant difference.
           </div>
         </section>
@@ -62,7 +58,24 @@
         </section>
       </section>
     </main>
-    
+
+
+
+
+    <footer>
+      <ul id="menu-socials" class="social-icons">
+        <li><a href="https://www.linkedin.com/in/nathan-taylor-601ba1262" target="_blank">
+          <img src="linkedin.png" alt="linkedin" class="lnkdin">
+        </a></li>
+        <li><a href="https://github.com/nathanjtaylor" target="_blank">
+          <img src="github.png" alt="github" class="github">
+        </a></li>
+        <li><a href=mailto:tayl1432@msu.edu target="_blank">
+          <img src="gmail.png" alt="gmail" class="email">
+        </a></li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
   </body>
 
 </html>
