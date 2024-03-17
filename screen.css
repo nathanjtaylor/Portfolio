@@ -255,3 +255,29 @@ article img{
     max-width: 100%;
 }
 /* Articles */
+
+
+
+
+@media (max-width: 1600px) {
+    .skill_block{
+        flex-direction: column;
+    }
+    .skill_image{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 1365px) {
+    header{
+        height: 150px;
+    }
+    .menu_elements{
+        text-align: center;
+        font-size: 37px;
+    }
+    article{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
