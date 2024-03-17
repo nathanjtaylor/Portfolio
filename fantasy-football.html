@@ -33,7 +33,7 @@
       <p>At the outset of the project, I established two primary design objectives:</p>
 
       <ul>
-        <li>Automate as much of the workflow as possible while ensuring usability for individuals with no programming knowledge.</li>
+        <li>Automate as much of the workflow as possible while ensuring usability for individuals with no programming knowledge</li>
         <li>Maintain the capability for manual inputs</li>
       </ul>
 
@@ -41,9 +41,20 @@
       
       <p>During the conceptualization phase, I explored methods for participants to submit their picks and have them automatically uploaded into a spreadsheet. Drawing from my past experience with Google Forms, which could interact with Google Sheets, I delved into research on Google Apps Script—a modified version of JavaScript tailored for customizing this connection.</p>
 
+      <h2>Automatically Populated Spreadsheet</h2>
       <img src="images/fantasy_football.png" alt="spreadsheet with a auto-populated list of names and scores">
+      
+      <p>
+        I had a decision to make when considering storing participant information. On one hand a class-based system to have readily-accessible information would be useful later down the line, but in the end I decided against it mainly because it violates the 2nd goal. A class-based system would decrease usability for a non-programmer, who is the project's primary user. Instead I decided to create functions that search through sheets for matching names, then grab associated data. This method is unoptimized and runs the risk of being too resource-intensive on a large scale.
+      </p>
 
+      <p>Though this was an informal project, I decided to keep a record of my progress and thought process. This will help me return to the project at a later date. I kept a changelog, a list of known issues, and a list of aspects which could be improved. This exercise was helpful for me to better understand the process of documenting work.
+      </p>
 
+      <p>In the end, the system performed exceptionally well. Across the four weeks of use there were only two problems that arose, both of which required no serious action. My acquaintance was grateful for my help, and many participants had good things to say. Before the system is used next year, I plan to implement a series of improvements. I will base the pain points through my observations and a conversation with my friend. 
+      </p>
+
+      <h2>Form to Gather Picks</h2>
       <img src="images/fantasy_football_form.png" alt="form to submit information to the system">
 
     </article>

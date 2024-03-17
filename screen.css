@@ -253,6 +253,10 @@ article img{
     position: relative;
     max-width: 100%;
 }
+
+article h2{
+    font-size: medium;
+}
 /* Articles */
 
 
