@@ -12,13 +12,13 @@ html, body{
 
 /* Link style */
 a{
-    color: #06132C;
+    color: black;
     text-decoration: none;
     transition: all 150ms;
 }
 
 a:hover{
-    color:#33486D
+    text-decoration: underline;
 }
 
 
@@ -215,6 +215,7 @@ footer{
     display: flex;
     list-style: none;
     gap: 20px;
+    justify-content: center;
 }
 
 .indiv_icons:hover{
@@ -231,3 +232,26 @@ footer{
 
 /* Footer */
 
+
+
+
+
+
+/* Articles */
+#article_body{
+    background-color: #ECECEC;
+}
+
+article{
+    background-color: white;
+    margin-left: 27%;
+    margin-right: 27%;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+article img{
+    position: relative;
+    max-width: 100%;
+}
+/* Articles */
